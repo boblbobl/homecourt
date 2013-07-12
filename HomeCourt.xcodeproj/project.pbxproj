@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E43FCB92174E2D2E001E81F0 /* DobraSlab-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E43FCB90174E2D2E001E81F0 /* DobraSlab-Bold.otf */; };
+		E43FCB93174E2D2E001E81F0 /* DobraSlab-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E43FCB91174E2D2E001E81F0 /* DobraSlab-Light.otf */; };
+		E470DE6816D1524200E6FF3E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E470DE6716D1524200E6FF3E /* SettingsViewController.m */; };
+		E470DE6A16D158EA00E6FF3E /* button_red.png in Resources */ = {isa = PBXBuildFile; fileRef = E470DE6916D158EA00E6FF3E /* button_red.png */; };
+		E470DE6E16D16B9A00E6FF3E /* button_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E470DE6D16D16B9A00E6FF3E /* button_red@2x.png */; };
+		E470DE7016D16FD900E6FF3E /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = E470DE6F16D16FD900E6FF3E /* trophy.png */; };
+		E470DE7216D1709A00E6FF3E /* activity.png in Resources */ = {isa = PBXBuildFile; fileRef = E470DE7116D1709A00E6FF3E /* activity.png */; };
+		E470DE7616D1733900E6FF3E /* gavel.png in Resources */ = {isa = PBXBuildFile; fileRef = E470DE7516D1733900E6FF3E /* gavel.png */; };
+		E470DE7E16D185B000E6FF3E /* SettingsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E470DE7D16D185B000E6FF3E /* SettingsListViewController.m */; };
 		E49E516A168D59EF0098876C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49E5169168D59EF0098876C /* UIKit.framework */; };
 		E49E516C168D59EF0098876C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49E516B168D59EF0098876C /* Foundation.framework */; };
 		E49E516E168D59EF0098876C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49E516D168D59EF0098876C /* CoreGraphics.framework */; };
@@ -17,11 +26,44 @@
 		E49E517E168D59EF0098876C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E49E517D168D59EF0098876C /* Default@2x.png */; };
 		E49E5180168D59EF0098876C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E49E517F168D59EF0098876C /* Default-568h@2x.png */; };
 		E49E5183168D59EF0098876C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49E5181168D59EF0098876C /* MainStoryboard.storyboard */; };
-		E49E5186168D59EF0098876C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49E5185168D59EF0098876C /* MasterViewController.m */; };
-		E49E5189168D59EF0098876C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49E5188168D59EF0098876C /* DetailViewController.m */; };
+		E4A7FF6C16D88B3A00D298C1 /* ChoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A7FF6B16D88B3A00D298C1 /* ChoreViewController.m */; };
+		E4AAFD61173E263A0048E843 /* new-challenge.png in Resources */ = {isa = PBXBuildFile; fileRef = E4AAFD60173E263A0048E843 /* new-challenge.png */; };
+		E4AAFD63173E26CA0048E843 /* add-new-post.png in Resources */ = {isa = PBXBuildFile; fileRef = E4AAFD62173E26CA0048E843 /* add-new-post.png */; };
+		E4AAFD65173E53CF0048E843 /* start-challenge.png in Resources */ = {isa = PBXBuildFile; fileRef = E4AAFD64173E53CF0048E843 /* start-challenge.png */; };
+		E4AAFD68173E78560048E843 /* NewChallengeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AAFD67173E78560048E843 /* NewChallengeViewController.m */; };
+		E4D42612173BB8A500A677F8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D42611173BB8A500A677F8 /* LoginViewController.m */; };
+		E4D42614173BCE8A00A677F8 /* welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D42613173BCE8A00A677F8 /* welcome.png */; };
+		E4D42619173C16DD00A677F8 /* log-in-title.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D42617173C16DD00A677F8 /* log-in-title.png */; };
+		E4D4261A173C16DD00A677F8 /* button-face.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D42618173C16DD00A677F8 /* button-face.png */; };
+		E4D4261D173C377400A677F8 /* MainNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D4261C173C377400A677F8 /* MainNavigationViewController.m */; };
+		E4D4261F173C3A4400A677F8 /* navigation-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D4261E173C3A4400A677F8 /* navigation-bar.png */; };
+		E4D42621173C40B700A677F8 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D42620173C40B700A677F8 /* FacebookSDK.framework */; };
+		E4D42623173C523A00A677F8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D42622173C523A00A677F8 /* Security.framework */; };
+		E4D42625173C524F00A677F8 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D42624173C524F00A677F8 /* Social.framework */; };
+		E4D42627173C537200A677F8 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E4D42626173C537200A677F8 /* FacebookSDKResources.bundle */; };
+		E4D4262A173C53CA00A677F8 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D42628173C53CA00A677F8 /* Accounts.framework */; };
+		E4D4262B173C53CA00A677F8 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D42629173C53CA00A677F8 /* AdSupport.framework */; };
+		E4D4262F173C615C00A677F8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4D4262E173C615C00A677F8 /* libsqlite3.dylib */; };
+		E4D42631173CCABD00A677F8 /* challenges.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D42630173CCABD00A677F8 /* challenges.png */; };
+		E4D42634173CCC5100A677F8 /* button2-face.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D42632173CCC5100A677F8 /* button2-face.png */; };
+		E4D42635173CCC5100A677F8 /* new-challenge-title.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D42633173CCC5100A677F8 /* new-challenge-title.png */; };
+		E4D42638173CF65600A677F8 /* ChallengesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D42637173CF65600A677F8 /* ChallengesViewController.m */; };
+		E4D4263B173CFBED00A677F8 /* ChallengesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D4263A173CFBEC00A677F8 /* ChallengesTableViewCell.m */; };
+		E4D4263D173D29AF00A677F8 /* challenge-box.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D4263C173D29AF00A677F8 /* challenge-box.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E43FCB90174E2D2E001E81F0 /* DobraSlab-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DobraSlab-Bold.otf"; sourceTree = "<group>"; };
+		E43FCB91174E2D2E001E81F0 /* DobraSlab-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DobraSlab-Light.otf"; sourceTree = "<group>"; };
+		E470DE6616D1524200E6FF3E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		E470DE6716D1524200E6FF3E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		E470DE6916D158EA00E6FF3E /* button_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_red.png; sourceTree = "<group>"; };
+		E470DE6D16D16B9A00E6FF3E /* button_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_red@2x.png"; sourceTree = "<group>"; };
+		E470DE6F16D16FD900E6FF3E /* trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophy.png; sourceTree = "<group>"; };
+		E470DE7116D1709A00E6FF3E /* activity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = activity.png; sourceTree = "<group>"; };
+		E470DE7516D1733900E6FF3E /* gavel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gavel.png; sourceTree = "<group>"; };
+		E470DE7C16D185B000E6FF3E /* SettingsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsListViewController.h; sourceTree = "<group>"; };
+		E470DE7D16D185B000E6FF3E /* SettingsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsListViewController.m; sourceTree = "<group>"; };
 		E49E5165168D59EF0098876C /* HomeCourt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeCourt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49E5169168D59EF0098876C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E49E516B168D59EF0098876C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,10 +78,36 @@
 		E49E517D168D59EF0098876C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E49E517F168D59EF0098876C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E49E5182168D59EF0098876C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		E49E5184168D59EF0098876C /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		E49E5185168D59EF0098876C /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		E49E5187168D59EF0098876C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		E49E5188168D59EF0098876C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E4A7FF6A16D88B3A00D298C1 /* ChoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoreViewController.h; sourceTree = "<group>"; };
+		E4A7FF6B16D88B3A00D298C1 /* ChoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoreViewController.m; sourceTree = "<group>"; };
+		E4AAFD60173E263A0048E843 /* new-challenge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-challenge.png"; sourceTree = "<group>"; };
+		E4AAFD62173E26CA0048E843 /* add-new-post.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-new-post.png"; sourceTree = "<group>"; };
+		E4AAFD64173E53CF0048E843 /* start-challenge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start-challenge.png"; sourceTree = "<group>"; };
+		E4AAFD66173E78560048E843 /* NewChallengeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewChallengeViewController.h; sourceTree = "<group>"; };
+		E4AAFD67173E78560048E843 /* NewChallengeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewChallengeViewController.m; sourceTree = "<group>"; };
+		E4D42610173BB8A500A677F8 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E4D42611173BB8A500A677F8 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E4D42613173BCE8A00A677F8 /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome.png; sourceTree = "<group>"; };
+		E4D42617173C16DD00A677F8 /* log-in-title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "log-in-title.png"; sourceTree = "<group>"; };
+		E4D42618173C16DD00A677F8 /* button-face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-face.png"; sourceTree = "<group>"; };
+		E4D4261B173C377400A677F8 /* MainNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationViewController.h; sourceTree = "<group>"; };
+		E4D4261C173C377400A677F8 /* MainNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationViewController.m; sourceTree = "<group>"; };
+		E4D4261E173C3A4400A677F8 /* navigation-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigation-bar.png"; sourceTree = "<group>"; };
+		E4D42620173C40B700A677F8 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		E4D42622173C523A00A677F8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E4D42624173C524F00A677F8 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		E4D42626173C537200A677F8 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKResources.bundle; path = ../../Documents/FacebookSDK/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		E4D42628173C53CA00A677F8 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		E4D42629173C53CA00A677F8 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E4D4262E173C615C00A677F8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		E4D42630173CCABD00A677F8 /* challenges.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = challenges.png; sourceTree = "<group>"; };
+		E4D42632173CCC5100A677F8 /* button2-face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button2-face.png"; sourceTree = "<group>"; };
+		E4D42633173CCC5100A677F8 /* new-challenge-title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-challenge-title.png"; sourceTree = "<group>"; };
+		E4D42636173CF65600A677F8 /* ChallengesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengesViewController.h; sourceTree = "<group>"; };
+		E4D42637173CF65600A677F8 /* ChallengesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengesViewController.m; sourceTree = "<group>"; };
+		E4D42639173CFBEC00A677F8 /* ChallengesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengesTableViewCell.h; sourceTree = "<group>"; };
+		E4D4263A173CFBEC00A677F8 /* ChallengesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengesTableViewCell.m; sourceTree = "<group>"; };
+		E4D4263C173D29AF00A677F8 /* challenge-box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "challenge-box.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,9 +115,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4D4262F173C615C00A677F8 /* libsqlite3.dylib in Frameworks */,
+				E4D4262A173C53CA00A677F8 /* Accounts.framework in Frameworks */,
+				E4D4262B173C53CA00A677F8 /* AdSupport.framework in Frameworks */,
+				E4D42625173C524F00A677F8 /* Social.framework in Frameworks */,
+				E4D42623173C523A00A677F8 /* Security.framework in Frameworks */,
 				E49E516A168D59EF0098876C /* UIKit.framework in Frameworks */,
 				E49E516C168D59EF0098876C /* Foundation.framework in Frameworks */,
 				E49E516E168D59EF0098876C /* CoreGraphics.framework in Frameworks */,
+				E4D42621173C40B700A677F8 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +150,13 @@
 		E49E5168168D59EF0098876C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E4D4262E173C615C00A677F8 /* libsqlite3.dylib */,
+				E4D42628173C53CA00A677F8 /* Accounts.framework */,
+				E4D42629173C53CA00A677F8 /* AdSupport.framework */,
+				E4D42624173C524F00A677F8 /* Social.framework */,
+				E4D42622173C523A00A677F8 /* Security.framework */,
+				E4D42626173C537200A677F8 /* FacebookSDKResources.bundle */,
+				E4D42620173C40B700A677F8 /* FacebookSDK.framework */,
 				E49E5169168D59EF0098876C /* UIKit.framework */,
 				E49E516B168D59EF0098876C /* Foundation.framework */,
 				E49E516D168D59EF0098876C /* CoreGraphics.framework */,
@@ -88,12 +169,24 @@
 			children = (
 				E49E5178168D59EF0098876C /* AppDelegate.h */,
 				E49E5179168D59EF0098876C /* AppDelegate.m */,
+				E4A7FF6A16D88B3A00D298C1 /* ChoreViewController.h */,
+				E4A7FF6B16D88B3A00D298C1 /* ChoreViewController.m */,
 				E49E5181168D59EF0098876C /* MainStoryboard.storyboard */,
-				E49E5184168D59EF0098876C /* MasterViewController.h */,
-				E49E5185168D59EF0098876C /* MasterViewController.m */,
-				E49E5187168D59EF0098876C /* DetailViewController.h */,
-				E49E5188168D59EF0098876C /* DetailViewController.m */,
+				E470DE6616D1524200E6FF3E /* SettingsViewController.h */,
+				E470DE6716D1524200E6FF3E /* SettingsViewController.m */,
+				E470DE7C16D185B000E6FF3E /* SettingsListViewController.h */,
+				E470DE7D16D185B000E6FF3E /* SettingsListViewController.m */,
+				E4D42610173BB8A500A677F8 /* LoginViewController.h */,
+				E4D42611173BB8A500A677F8 /* LoginViewController.m */,
+				E4D4261B173C377400A677F8 /* MainNavigationViewController.h */,
+				E4D4261C173C377400A677F8 /* MainNavigationViewController.m */,
+				E4D42636173CF65600A677F8 /* ChallengesViewController.h */,
+				E4D42637173CF65600A677F8 /* ChallengesViewController.m */,
 				E49E5170168D59EF0098876C /* Supporting Files */,
+				E4D42639173CFBEC00A677F8 /* ChallengesTableViewCell.h */,
+				E4D4263A173CFBEC00A677F8 /* ChallengesTableViewCell.m */,
+				E4AAFD66173E78560048E843 /* NewChallengeViewController.h */,
+				E4AAFD67173E78560048E843 /* NewChallengeViewController.m */,
 			);
 			path = HomeCourt;
 			sourceTree = "<group>";
@@ -101,6 +194,24 @@
 		E49E5170168D59EF0098876C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E43FCB90174E2D2E001E81F0 /* DobraSlab-Bold.otf */,
+				E43FCB91174E2D2E001E81F0 /* DobraSlab-Light.otf */,
+				E4AAFD64173E53CF0048E843 /* start-challenge.png */,
+				E4AAFD62173E26CA0048E843 /* add-new-post.png */,
+				E4AAFD60173E263A0048E843 /* new-challenge.png */,
+				E4D4263C173D29AF00A677F8 /* challenge-box.png */,
+				E4D42632173CCC5100A677F8 /* button2-face.png */,
+				E4D42633173CCC5100A677F8 /* new-challenge-title.png */,
+				E4D42630173CCABD00A677F8 /* challenges.png */,
+				E4D4261E173C3A4400A677F8 /* navigation-bar.png */,
+				E4D42617173C16DD00A677F8 /* log-in-title.png */,
+				E4D42618173C16DD00A677F8 /* button-face.png */,
+				E4D42613173BCE8A00A677F8 /* welcome.png */,
+				E470DE7516D1733900E6FF3E /* gavel.png */,
+				E470DE7116D1709A00E6FF3E /* activity.png */,
+				E470DE6F16D16FD900E6FF3E /* trophy.png */,
+				E470DE6D16D16B9A00E6FF3E /* button_red@2x.png */,
+				E470DE6916D158EA00E6FF3E /* button_red.png */,
 				E49E5171168D59EF0098876C /* HomeCourt-Info.plist */,
 				E49E5172168D59EF0098876C /* InfoPlist.strings */,
 				E49E5175168D59EF0098876C /* main.m */,
@@ -168,6 +279,25 @@
 				E49E517E168D59EF0098876C /* Default@2x.png in Resources */,
 				E49E5180168D59EF0098876C /* Default-568h@2x.png in Resources */,
 				E49E5183168D59EF0098876C /* MainStoryboard.storyboard in Resources */,
+				E470DE6A16D158EA00E6FF3E /* button_red.png in Resources */,
+				E470DE6E16D16B9A00E6FF3E /* button_red@2x.png in Resources */,
+				E470DE7016D16FD900E6FF3E /* trophy.png in Resources */,
+				E470DE7216D1709A00E6FF3E /* activity.png in Resources */,
+				E470DE7616D1733900E6FF3E /* gavel.png in Resources */,
+				E4D42614173BCE8A00A677F8 /* welcome.png in Resources */,
+				E4D42619173C16DD00A677F8 /* log-in-title.png in Resources */,
+				E4D4261A173C16DD00A677F8 /* button-face.png in Resources */,
+				E4D4261F173C3A4400A677F8 /* navigation-bar.png in Resources */,
+				E4D42627173C537200A677F8 /* FacebookSDKResources.bundle in Resources */,
+				E4D42631173CCABD00A677F8 /* challenges.png in Resources */,
+				E4D42634173CCC5100A677F8 /* button2-face.png in Resources */,
+				E4D42635173CCC5100A677F8 /* new-challenge-title.png in Resources */,
+				E4D4263D173D29AF00A677F8 /* challenge-box.png in Resources */,
+				E4AAFD61173E263A0048E843 /* new-challenge.png in Resources */,
+				E4AAFD63173E26CA0048E843 /* add-new-post.png in Resources */,
+				E4AAFD65173E53CF0048E843 /* start-challenge.png in Resources */,
+				E43FCB92174E2D2E001E81F0 /* DobraSlab-Bold.otf in Resources */,
+				E43FCB93174E2D2E001E81F0 /* DobraSlab-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,8 +310,14 @@
 			files = (
 				E49E5176168D59EF0098876C /* main.m in Sources */,
 				E49E517A168D59EF0098876C /* AppDelegate.m in Sources */,
-				E49E5186168D59EF0098876C /* MasterViewController.m in Sources */,
-				E49E5189168D59EF0098876C /* DetailViewController.m in Sources */,
+				E470DE6816D1524200E6FF3E /* SettingsViewController.m in Sources */,
+				E470DE7E16D185B000E6FF3E /* SettingsListViewController.m in Sources */,
+				E4A7FF6C16D88B3A00D298C1 /* ChoreViewController.m in Sources */,
+				E4D42612173BB8A500A677F8 /* LoginViewController.m in Sources */,
+				E4D4261D173C377400A677F8 /* MainNavigationViewController.m in Sources */,
+				E4D42638173CF65600A677F8 /* ChallengesViewController.m in Sources */,
+				E4D4263B173CFBED00A677F8 /* ChallengesTableViewCell.m in Sources */,
+				E4AAFD68173E78560048E843 /* NewChallengeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +396,10 @@
 		E49E518D168D59EF0098876C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HomeCourt/HomeCourt-Prefix.pch";
 				INFOPLIST_FILE = "HomeCourt/HomeCourt-Info.plist";
@@ -271,6 +411,10 @@
 		E49E518E168D59EF0098876C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Documents/FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HomeCourt/HomeCourt-Prefix.pch";
 				INFOPLIST_FILE = "HomeCourt/HomeCourt-Info.plist";
@@ -298,6 +442,7 @@
 				E49E518E168D59EF0098876C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
